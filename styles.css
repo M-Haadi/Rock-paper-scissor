@@ -1,0 +1,74 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+H1{
+    text-align:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1rem 0 ;
+    background-color: black;
+    color: aliceblue;
+    padding: 1rem 0 ;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    background-color: rgb(255, 175, 138);
+}
+.iconss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resize-icons{
+    font-size: 6rem;
+    margin: 0 1rem ;
+   
+}
+
+
+.result{
+    width: 400px;
+    height: 120px;
+    background-color: black;
+    margin: 1rem 0;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.choose{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: .5rem 0;
+}
+
+.btns-container button{
+
+    padding: .6rem 1.3rem ;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.btns-container button:hover{
+background-color: black;
+color: aliceblue;
+ 
+}
+.icons i{
+    font-size: 3rem;
+    cursor: pointer;
+    margin: 0 .7rem;
+}
+.icons i:hover{
+ color: rgb(255, 188, 188);
+}
